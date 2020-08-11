@@ -1,0 +1,39 @@
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus,
+.carousel-indicators .active
+{
+   background-color: #6256cf;
+}
+
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.testimonial span,
+.our_footer h3,
+.our_footer .copyright span
+{
+    color: #6256cf;
+}
+
+.option-box .color-option,
+.testimonial .carousel-indicators li,
+.testimonial .carousel-indicators li .active
+{
+    /* float: left; */
+    /* background: #333; */
+    /* color: #FFF; */
+    /* padding: 11px; */
+    border: 3px solid #6256cf;
+    /* display: none; */
+}
+
+.dropdown-menu
+{
+    border-top: 4px solid #6256cf;
+}
+
+
+
+
+

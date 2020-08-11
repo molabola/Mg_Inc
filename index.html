@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>48 bootstrap rtl,49 deal with links</title>
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/fontawesome.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/media.css" />
+        <link rel="stylesheet" href="css/default_theme.css" />
+        <link rel="stylesheet" href="css/hover.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+        <!--[if It IE 9]>
+        <script src="js/html5shiv.min.js" ></script>
+        <script src="js/respond.min.js" ></script>
+        <![endif]-->
+    </head>
+    <body>
+
+
+
+
+      <section class="option-box">
+
+        <div class="color-option">
+
+          <h4>color option</h4>
+          <ul class="list-unstyled">
+
+            <li data-value="css/default_theme.css"></li>
+            <li data-value="css/green_theme.css"></li>
+            <li data-value="css/yellow_theme.css"></li>
+            <li data-value="css/red_theme.css"></li>
+            <li data-value="css/purple_theme.css"></li>
+
+          </ul>
+
+        </div>
+
+
+        <span class="glyphicon glyphicon-text-color colorism"></span>
+
+
+
+      </section>
+
+
+
+        <nav class="navbar navbar-inverse navbar-fixed-top"> 
+
+            <div class="container">
+              
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand hvr-grow" href="#">MG<span> Inc.</span></a>
+
+              </div>
+          
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                  <li><a href="resume.html">Resume</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Topics<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+
+              </div>
+
+            </div>
+
+          </nav>
+
+          <div id="myslide" class="carousel slide" data-ride="carousel">
+      
+            <ol class="carousel-indicators">
+              <li data-target="#myslide" data-slide-to="0" class="active"></li>
+              <li data-target="#myslide" data-slide-to="1"></li>
+              <li data-target="#myslide" data-slide-to="2"></li>
+              <li data-target="#myslide" data-slide-to="3"></li>
+            </ol>
+          
+           
+            <div class="carousel-inner">
+
+              <div class="item active">
+                <img src="images/acroped.jpg" alt="pic 1"> 
+                
+                <div class="carousel-caption">
+                  <h2 class="h1">picture 1</h2>
+                  <p class="lead">hjhjfhjasdohfahfalhfalshafhflahhalfhalflhfalfsahlfsllhfA</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="images/as8.png" alt="pic 2">
+                <div class="carousel-caption">
+                  <h2 class="h1">WbHosting</h2>
+                  <p class="lead">hjhjfhjasdohfahfalhfalshafhflahhalfhalflhfalfsahlfsllhfA</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="images/as2.png" alt="pic 3">
+                <div class="carousel-caption">
+                  <h2 class="h1">Desktop</h2>
+                  <p class="lead">hjhjfhjasdohfahfalhfalshafhflahhalfhalflhfalfsahlfsllhfA</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="images/as.png" alt="pic 4">
+                <div class="carousel-caption">
+                  <h2 class="h1">DBs</h2>
+                  <p class="lead">hjhjfhjasdohfahfalhfalshafhflahhalfhalflhfalfsahlfsllhfA</p>
+                </div>
+              </div>
+              ...
+            </div>
+          
+            
+            <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
+          </div>
+
+          <section class="about text-center wow bounceIn" data-wow-duration="5s" data-wow-offset="289">
+            <div class="container">
+              <h1>meet our new template <span>MG Inc.</span></h1>
+              <p class="lead text-center">created by love with <strong>bootstrap</strong> 3.8.0</p>
+            </div>
+          </section>
+
+          <section class="features text-center"> 
+            <div class="container">
+              <h2 class="h1">features</h2>
+              <div class="row">
+
+                <div class="col-lg-3 col-md-6">
+                  <div class="feat wow bounceInLeft" data-wow-duration="3s" data-wow-offset="303">
+                    <span class="glyphicon glyphicon-ok"></span>
+                    <h3>100% Results</h3>
+                    <p>hjhjfhjasdo hfahfalhfals hafhflahhalfhalf lhfalfsahlfsl lhfAhjhjfhjasdohf ahfalhfal shafhflah halfhal flhfalfsahlf sllhfA</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                  <div class="feat wow bounceInRight" data-wow-duration="3s" data-wow-offset="303">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                    <h3>100% Results</h3> 
+                    <p>hjhjfh jasdohf ahfa lhfalshafhfla hhalfha lflhfalf sahlfsllhfAhjhjfh jas dohfahfalh falshafhflahhalfhal flhfalfsahlf sllhfA</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                  <div class="feat wow bounceInDown" data-wow-duration="3s" data-wow-offset="303">
+                    <span class="glyphicon glyphicon-eye-open"></span>
+                    <h3>100% Results</h3>
+                    <p>hjhjfhjasd ohfahfa lhfals hafhfl ahhalfhalf lhfalfsahlfsllh fAhjhjfhjasdohf ahfalh falshaf hflahhal  fhalflhfalfsahlfsllhfA</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="feat wow bounceInUp" data-wow-duration="3s" data-wow-offset="303">
+                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                    <h3>100% Results</h3>
+                    <p>hjhjfhjasdo  hfahfalhfals hafhflahhalfha l flhfalfsahl  fsllhfA  hjhjf hjasdohfah  falhf  alshafhfla hhalfhalflhfa lfsahlfsl  lhfAhj hjfhjasdoh fahfalhfals hafhflahha lfhal flhfalfsah lfsllhfA</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
+          <!-- ///////////////////////////////////// -->
+
+
+          <section class="testimonial text-center wow rotateInDownLeft" data-wow-duration="2s" data-wow-offset="303">
+
+            <div class="container">
+
+              <h2 class="h1">what our clients say ?</h2>
+
+              <div id="carousel_testmonials" class="carousel slide" data-ride="carousel">
+                
+               
+              
+               
+                <div class="carousel-inner">
+    
+                  <div class="item active">
+                    <p class="lead">hjh jfhj asdoh fahfal hfal shafhf lahh alfha lflhfalfs ahlf sllhfA  hjhjfhj asdohfahf alhfalshafhf lahhalfhalfl hfalfsah lfsllhfA  hjhjfhj asdohfahf alhfalshafhf lahhalfhalfl hfalfsah lfsllhfA  hjhjfhj asdohfahf alhfalshafhf lahhalfhalfl hfalfsah lfsllhfA</p>
+                    <span>Ola Adel</span>   
+                  </div>
+    
+                  <div class="item">
+                    <p class="lead">hjh jfhj asdoh fahfal hfal shafhf lahh alfha lflhfalfs ahlf sllhfA  hjhjfhj asdohfahf alhfalshafhf lahhalfhalfl hfalfsah lfsllhfA  hjhjfhj asdohfahf alhfalshafhf lahhalfhalfl hfalfsah lfsllhfA  hjhjfhj asdohfahf alhfalshafhf lahhalfhalfl hfalfsah lfsllhfA</p>
+                    <span>Omer Yasieen</span>
+                  </div>
+    
+                  <div class="item">
+                    <p class="lead">hjh jfhj asdoh fahfal hfal shafhf lahh alfha lflhfalfs ahlf sllhfA  hjhjfhj asdohfahf alhfalshafhf lahhalfhalfl hfalfsah lfsllhfA  hjhjfhj asdohfahf alhfalshafhf lahhalfhalfl hfalfsah lfsllhfA  hjhjfhj asdohfahf alhfalshafhf lahhalfhalfl hfalfsah lfsllhfA</p>
+                    <span>Khalid Mokhtar</span>
+                  </div>
+    
+                  <div class="item">
+                    <p class="lead">hjh jfhj asdoh fahfal hfal shafhf lahh alfha lflhfalfs ahlf sllhfA  hjhjfhj asdohfahf alhfalshafhf lahhalfhalfl hfalfsah lfsllhfA  hjhjfhj asdohfahf alhfalshafhf lahhalfhalfl hfalfsah lfsllhfA  hjhjfhj asdohfahf alhfalshafhf lahhalfhalfl hfalfsah lfsllhfA</p>
+                    <span>Maha Alamin</span>
+                  </div>
+                  
+                </div>
+              
+               
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel_testmonials" data-slide-to="0" class="active">
+                    <img src="images/100.png" alt="Ola" />
+                  </li>
+                  <li data-target="#carousel_testmonials" data-slide-to="1">
+                    <img src="images/200.png" alt="Omer" />
+                  </li>
+                  <li data-target="#carousel_testmonials" data-slide-to="2">
+                    <img src="images/300.png" alt="Khalid" />
+                  </li>
+                  <li data-target="#carousel_testmonials" data-slide-to="3">
+                    <img src="images/400.png" alt="Maha" />
+                  </li>
+                </ol>
+              </div>
+             
+            </div>
+           
+
+          </section>
+
+          <!-- ////////////////////////////////////////////////////// -->
+
+          <section class="price_table text-center">
+            <div class="container">
+
+              <h2 class="h1">Our prices</h2>
+
+              <div class="row">
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                  <div class="price_box wow fadeInUp" data-wow-duration="2s" data-wow-offset="404">
+                    <h2 class="text-primary">prand 1</h2>
+                    <p class="center-block">$582</p>
+                    <ul class="list-unstyled">
+                      <li>space 30GB</li>
+                      <li>Emails 20</li>
+                      <li>Ids 90</li>
+                      <li>IPs 80</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">order now</a>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                  <div class="price_box wow fadeInDown" data-wow-duration="2s" data-wow-offset="404">
+                    <h2 class="text-success">prand 2</h2>
+                    <p class="center-block">$582</p>
+                    <ul class="list-unstyled">
+                      <li>space 30GB</li>
+                      <li>Emails 20</li>
+                      <li>Ids 90</li>
+                      <li>IPs 80</li>
+                    </ul>
+                    <a href="#" class="btn btn-success">order now</a>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                  <div class="price_box wow fadeInUp" data-wow-duration="2s" data-wow-offset="404">
+                    <h2 class="text-info">VMware</h2>
+                    <p class="center-block">$582</p>
+                    <ul class="list-unstyled">
+                      <li>space 30GB</li>
+                      <li>Emails 20</li>
+                      <li>Ids 90</li>
+                      <li>IPs 80</li>
+                    </ul>
+                    <a href="#" class="btn btn-info">order now</a>
+                  </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+                  <div class="price_box wow fadeInDown" data-wow-duration="2s" data-wow-offset="404">
+                    <h2 class="text-warning">VPS</h2>
+                    <p class="center-block">$282</p>
+                    <ul class="list-unstyled">
+                      <li>space 10GB</li>
+                      <li>Emails 20</li>
+                      <li>Ids 5</li>
+                      <li>IPs 80</li>
+                    </ul>
+                    <a href="#" class="btn btn-warning">order now</a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+          </section>
+
+          <!-- /////////////////////////////////////////////////////////// -->
+
+          <section class="our_team text-center">
+
+            <div class="team">
+              <div class="container">
+
+                <h2 class="h1">Our Team</h2>
+                <div class="row">
+
+                  <div class="col-lg-3 col-sm-6 col-xs-12">
+
+                    <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="404">
+                      
+                      <img class="img-circle" src="images/8520.png" alt="per1" />
+                      <h3>per 1</h3>
+                      <p>CEO<br/> djaskjdaskljadsjkldsajasjkld</p>
+                    
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-3 col-sm-6 col-xs-12">
+
+                    <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="404">
+                      
+                      <img class="img-circle" src="images/adsaa.jfif" alt="per2" />
+                      <h3>per 2</h3>
+                      <p>Network<br/> djaskjdaskljadsjkldsajasjkld</p>
+                    
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-3 col-sm-6 col-xs-12">
+
+                    <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="404">
+                      
+                      <img class="img-circle" src="images/m3.jfif" alt="per3" />
+                      <h3>per 3</h3>
+                      <p>DB<br/> djaskjdaskljadsjkldsajasjkld</p>
+                      <i class="fab fa-facebook"></i>
+                      <i class="fa fa-product-hunt fa-fw"></i>
+                    
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-3 col-sm-6 col-xs-12">
+
+                    <div class="person wow pulse" data-wow-duration="1s" data-wow-offset="404">
+                      
+                      <img class="img-circle" src="images/m4.jfif" alt="per4" />
+                      <h3>per 4</h3>
+                      <p>Design<br/> djaskjdaskljadsjkldsajasjkld</p>
+                    
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            
+          </section>
+          <!-- //////////////////////////////////////////////// -->
+
+          <section class="subscribe text-center">
+
+            <div class="container wow fadeInUp" data-wow-duration="1s" data-wow-offset="202">
+
+              <h2 class="h1">Keep touching</h2>
+              <p class="lead">Sign up for News Leate dont wary about Spam Emails.</p>
+              <form class="form-inline">
+
+                <input type="text" class="form-control input-lg" placeholder="right your email" />
+                <button class="btn btn-danger btn-lg">Subs.</button>
+
+              </form>
+
+            </div>
+
+          </section>
+          <!-- ////////////////////////////////////////////////////// -->
+
+          <section>
+
+            <section class="statistics text-center">
+              
+              <div class="data">
+
+                <div class="container">
+
+                  <h2 class="h1">our main <span class="glyphicon glyphicon-stats"></span> statistics</h2>
+                  <div class="row">
+
+                    <div class="col-lg-3 col-sm-6">
+
+                      <div class="stats">
+                        
+                        <span class="glyphicon glyphicon-user"></span>
+                        <p>456,454</p>
+                        <span class="didcate">satisfied users</span>
+
+                      </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+
+                      <div class="stats">
+                        
+                        <span class="glyphicon glyphicon-comment"></span>
+                        <p>45,454</p>
+                        <span class="didcate">comments</span>
+
+                      </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+
+                      <div class="stats">
+                        
+                        <span class="glyphicon glyphicon-tasks"></span>
+                        <p>85</p>
+                        <span class="didcate">done works!</span>
+
+                      </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+
+                      <div class="stats">
+                        
+                        <span class="glyphicon glyphicon-qrcode"></span>
+                        <p>7,874512</p>
+                        <span class="didcate">ticket support</span>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+              
+
+            </section>
+
+          </section>
+
+          <!-- ///////////////////////////////////////////////////////// -->
+          
+          <section class="our_skills">
+
+            <div class="container">
+
+              <h2 class="h1 text-center">Our skills</h2>
+              <div class="row">
+
+
+                <div class="col-md-5">
+                  
+                  <div class="skills-progress">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100" style="width: 81%;">
+                        <strong>CEO <span class="glyphicon glyphicon-exclamation-sign"></span></strong>
+                      </div>
+                    </div>
+
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100" style="width: 93%;">
+                        <strong>Network <span class="glyphicon glyphicon-link"></span></strong>
+                      </div>
+                    </div>
+
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                        <strong>DB <span class="glyphicon glyphicon-cloud-upload"></span></strong>
+                         <span class="glyphicon glyphicon-cloud-download"></span>
+                      </div>
+                    </div>
+
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100" style="width: 79%;">
+                        <strong>DESIGN</strong>
+                        <span class="glyphicon glyphicon-text-color"></span>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+            
+
+
+                <div class="col-md-6 col-md-offset-1">
+
+                  <div class="skills-info">
+
+                    <h2>about team</h2>
+                    <p class="lead">we are specilaized in design & programming & dliver Whole <strong>SYSTEM</strong> dont worry</p>
+                    <button type="button" class="btn btn-primary">Go Head Query</button>
+
+                  </div>
+
+                </div>
+               
+
+
+              </div>
+
+            </div>
+
+          </section>
+          <!-- /////////////////////////////////////// -->
+
+
+          <section class="contact_us text-center">
+
+            <div class="fields">
+
+              <div class="container">
+
+                <div class="row">
+                
+                <span class="aa glyphicon glyphicon-headphones"></span>
+                <span class="aa glyphicon glyphicon-heart"></span>
+                <h2 class="h1">tell us</h2>
+                <p class="lead">feel free to contact us in any time and place we work to make you full staisfaied</p>
+
+                <form role="form">
+                  <div class="col-md-6 wow bounceInLeft" data-wow-duration="2s" data-wow-offset="202">
+
+                  <div class="form-group">
+                    <input type="text" class="form-control input-lg" placeholder="User Name">
+                  </div>
+
+                  <div class="form-group">
+                    <input type="text" class="form-control input-lg" placeholder="Email">
+                  </div>
+
+                  <div class="form-group">
+                    <input type="text" class="form-control input-lg" placeholder="Cell Phone">
+                  </div>
+                </div>
+                <div class="col-md-6 wow bounceInRight" data-wow-duration="2s" data-wow-offset="202">
+
+                  <div class="form-group">
+
+                    <textarea class="form-control input-lg" placeholder="your message"></textarea>
+
+                  </div>
+                  
+                  <button type="button" class="btn btn-primary btn-lg btn-block">contact</button>
+
+                </div>
+                 
+                </form>
+              </div>
+
+
+              </div>
+
+            </div>
+
+          </section>
+
+          <!-- /////////////////////////////////// -->
+
+          <div class="our_clients text-center">
+
+            <ul class="list-unstyled">
+
+              <li class="col-md-2 col-xs-4">
+                <img src="images/ourclients/Globe_96px.png" class="img-responsive center-block wow bounceIn" alt="oc1" data-wow-duration=".5s" data-wow-offset="202" data-wow-delay=".5s">
+              </li>
+              <li class="col-md-2 col-xs-4">
+                <img src="images/ourclients/Fingerprint_96px.png" class="img-responsive center-block wow bounceIn" alt="oc2" data-wow-duration=".5s" data-wow-offset="202" data-wow-delay="1s">
+              </li>
+              <li class="col-md-2 col-xs-4">
+                <img src="images/ourclients/Engineer_96px.png" class="img-responsive center-block wow bounceIn" alt="oc3" data-wow-duration=".5s" data-wow-offset="202" data-wow-delay="1.5s">
+              </li>
+              <li class="col-md-2 col-xs-4">
+                <img src="images/ourclients/Graduation Cap_96px.png" class="img-responsive center-block wow bounceIn" alt="oc4" data-wow-duration=".5s" data-wow-offset="202" data-wow-delay="2s">
+              </li>
+              <li class="col-md-2 col-xs-4">
+                <img src="images/ourclients/Stack Overflow_96px.png" class="img-responsive center-block wow bounceIn" alt="oc5" data-wow-duration=".5s" data-wow-offset="202" data-wow-delay="2.5s">
+              </li>
+              <li class="col-md-2 col-xs-4">
+                <img src="images/ourclients/Team_96px.png" class="img-responsive center-block wow bounceIn" alt="oc6" data-wow-duration=".5s" data-wow-offset="202" data-wow-delay="3s">
+              </li>
+
+            </ul>
+
+          </div>
+
+          <!-- ////////////////////////////////////// -->
+
+
+          <section class="our_footer">
+
+            <div class="container">
+
+              <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+
+                  <h3>Sitemap</h3>
+                  <ul class="list-unstyled three-coulmns">
+
+                    <li>Home</li>
+                    <li>Service</li>
+                    <li>About</li>
+                    <li>Company</li>
+                    <li>Code</li>
+                    <li>Design</li>
+                    <li>Host</li>
+                    <li>Camps</li>
+                    <li>Contact</li>
+
+                  </ul>
+
+                  <ul class="list-unstyled img-responsive social-list">
+
+                    <li><img src="images/social/Email_48px.png" alt="email" /></li>
+                    <li><img src="images/social/LinkedIn_48px.png" alt="linkd" /></li>
+                    <li><img src="images/social/Facebook_48px.png" alt="facbk" /></li>
+                    <li><img src="images/social/Twitter Squared_48px.png" alt="twi" /></li>
+                    <li><img src="images/social/Google Plus_48px.png" alt="gplus" /></li>
+                    <li><img src="images/social/Instagram_48px.png" alt="ista" /></li>
+
+                  </ul>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+
+                  <h3>Latest Journales</h3>
+                  <div class="media">
+
+                    <a class="pull-left" href="#">
+                      
+                      <img class="media-object" src="images/articles/Data_48px.png" alt="data" />
+
+                    </a>
+
+                    <div class="media-body">
+
+                      <h4 class="media-heading">
+
+                        Data Since
+
+                      </h4>
+
+                      <p class="lead"> this article about the feature of data since</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="media">
+
+                    <a class="pull-left" href="#">
+                      
+                      <img class="media-object" src="images/articles/Shopping Cart_48px.png" alt="shopping" />
+
+                    </a>
+
+                    <div class="media-body">
+
+                      <h4 class="media-heading">
+
+                        E-commerce
+
+                      </h4>
+
+                      <p class="lead"> this article about the Electeronic Commerce in the whole world</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="media">
+
+                    <a class="pull-left" href="#">
+                      
+                      <img class="media-object" src="images/articles/QR Code_48px.png" alt="barcode" />
+
+                    </a>
+
+                    <div class="media-body">
+
+                      <h4 class="media-heading">
+
+                        Barcode
+
+                      </h4>
+
+                      <p class="lead"> this article about the feature of barcode and clearfy people about this tool</p>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="col-lg-4">
+
+                  <h3>Our Work</h3>
+
+                  <img src="images/work/icons8_Database_52px.png" class="img-thumbnail" alt="" />
+                  <img src="images/work/icons8_Padlock_52px.png" class="img-thumbnail" alt="" />
+                  <img src="images/work/icons8_Today_52px.png" class="img-thumbnail" alt="" />
+                  <img src="images/work/icons8_Train_52px.png" class="img-thumbnail" alt="" />
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="copyright text-center">
+
+              Copyright &copy; 2020 <span><strong>BooBer</strong></span>.Inc
+
+            </div>
+
+          </section>
+
+          <!-- /////////////////// -->
+
+
+          <!-- <div class="loading-overlay">
+
+            <div class="sk-chase">
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+              <div class="sk-chase-dot"></div>
+            </div>
+
+          </div> -->
+         
+
+          <!-- ///////////////////////////// -->
+
+
+          <div id="scroll-top">
+
+            <span class="glyphicon glyphicon-menu-up"></span>
+
+          </div>
+
+
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/fontawesome.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+    </body>
+</html>
